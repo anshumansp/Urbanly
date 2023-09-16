@@ -1,0 +1,81 @@
+.hero {
+    background-image:linear-gradient(rgba(78, 123, 119, 0.3), rgba(16, 15, 30, 0.8)), url("../../../../public/images/p-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 88vh;
+    width: 100%;
+}
+
+.hero .container {
+    padding-top: 15%;
+}
+
+/* 5, 4, 46, 0.8 */
+
+.hero h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.hero p{
+    color: #fff;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+form input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+form-span {
+    font-size: 14px;
+    color: grey;
+}
+
+input::placeholder {
+    font-size: 17px;
+    color: black;
+}
+
+form .box{
+    padding: 15px;
+    border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+form .box:nth-child(1){
+    border-left: none;
+}
+
+form h4{
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .hero .container {
+        padding-top: 30%;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    form .box{
+        border-left: none;
+    }
+
+    form input {
+        width: 100%;
+    }
+}
