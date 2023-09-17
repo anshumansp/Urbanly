@@ -21,7 +21,7 @@ footer .container {
 }
 
 footer img {
-    width: 150px;
+    width: 250px;
 }
 
 footer h2{
@@ -36,8 +36,14 @@ footer p{
 footer input {
     background-color: #fff;
     padding: 17px;
-    width: 100%;
+    width: 90%;
     border-radius: 5px;
+}
+
+footer button {
+    position: relative;
+    right: 2.5rem;
+    border-radius: 0 5px 5px 0;
 }
 
 footer h3 {
@@ -66,5 +72,10 @@ footer ul li {
 @media screen and (max-width: 800px) {
     footer .container {
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    footer button {
+        top: 0px;
+        border-radius: 5px;
     }
 }
