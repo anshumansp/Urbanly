@@ -1,0 +1,35 @@
+.recent .text {
+    padding: 30px;   
+}
+
+.recent .category span {
+    padding: 4px 15px;
+    margin: 0 0 8px 0;
+    border-radius: 2px;
+    font-weight: 600;
+    font-style: 13px;
+    display: inline-block;
+}
+
+.recent .category i {
+    font-style: 20px;
+    color: #bec7d8;
+}
+
+.recent p{
+    color: #72809d;
+}
+
+.recent .button {
+    border-top: 1px solid #efe8f3;
+    padding: 10px 30px;
+}
+
+.recent label {
+    margin-left: 5px;
+}
+
+.recent .flex {
+    flex-wrap: wrap;
+    gap: 16px;
+}
