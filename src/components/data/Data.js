@@ -202,27 +202,72 @@ export const location = [
 
   export const team = [
     {
-      list: "80",
       cover: "../images/customer/team-1.jpg",
       address: "Denever, USA",
       name: "Jack Young",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>, <i class='fa-regular fa-phone'></i>],
+      icon: [
+        <i class="fa-brands fa-facebook-f"></i>,
+        <i class="fa-brands fa-linkedin"></i>,
+        <i class="fa-brands fa-twitter"></i>,
+        <i class="fa fa-envelope"></i>,
+      ],
     },
     {
-      list: "70",
       cover: "../images/customer/team-2.jpg",
       address: "Montreal, Canada",
       name: "Harijeet Siller",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>, <i class='fa-regular fa-phone'></i> ],
+      icon: [
+        <i class="fa-brands fa-facebook-f"></i>,
+        <i class="fa-brands fa-linkedin"></i>,
+        <i class="fa-brands fa-twitter"></i>,
+        <i class="fa fa-envelope"></i>,
+      ],
     },
     {
-      list: "42",
-      cover: "../images/customer/team-5.jpg",
+      cover: "../images/customer/team-3.jpg",
       address: "2272 Briarwood Drive",
       name: "Michael Grimaldo",
-      icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
-    }
-  ]
+      icon: [
+        <i class="fa-brands fa-facebook-f"></i>,
+        <i class="fa-brands fa-linkedin"></i>,
+        <i class="fa-brands fa-twitter"></i>,
+        <i class="fa fa-envelope"></i>,
+      ],
+    },
+    {
+      cover: "../images/customer/team-4.jpg",
+      address: "Liverpool, Canada",
+      name: "Lara Ryan",
+      icon: [
+        <i class="fa-brands fa-facebook-f"></i>,
+        <i class="fa-brands fa-linkedin"></i>,
+        <i class="fa-brands fa-twitter"></i>,
+        <i class="fa fa-envelope"></i>,
+      ],
+    },
+    {
+      cover: "../images/customer/team-5.jpg",
+      address: "Sydney, Australia",
+      name: "Adam Jollio",
+      icon: [
+        <i class="fa-brands fa-facebook-f"></i>,
+        <i class="fa-brands fa-linkedin"></i>,
+        <i class="fa-brands fa-twitter"></i>,
+        <i class="fa fa-envelope"></i>,
+      ],
+    },
+    {
+      cover: "../images/customer/team-6.jpg",
+      address: "Atlanta, USA",
+      name: "Adarsh Singh",
+      icon: [
+        <i class="fa-brands fa-facebook-f"></i>,
+        <i class="fa-brands fa-linkedin"></i>,
+        <i class="fa-brands fa-twitter"></i>,
+        <i class="fa fa-envelope"></i>,
+      ],
+    },
+  ];
 
 
   export const price = [
