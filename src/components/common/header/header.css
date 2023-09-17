@@ -40,7 +40,6 @@ header h4 {
 header logo {
     display: flex;
     margin-top: 20px;
-    align-items: end;
 }
 
 header .toggle {

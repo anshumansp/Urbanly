@@ -1,5 +1,5 @@
 .hero {
-    background-image:linear-gradient(rgba(78, 123, 119, 0.3), rgba(16, 15, 30, 0.8)), url("../../../../public/images/p-2.jpg");
+    background-image: linear-gradient(rgba(78, 123, 119, 0.3), rgba(16, 15, 30, 0.8)), url("../../../../public/images/p-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,13 +13,13 @@
 
 /* 5, 4, 46, 0.8 */
 
-.hero h1{
+.hero h1 {
     color: #fff;
     font-size: 60px;
     font-weight: 800;
 }
 
-.hero p{
+.hero p {
     color: #fff;
 }
 
@@ -48,16 +48,16 @@ input::placeholder {
     color: black;
 }
 
-form .box{
+form .box {
     padding: 15px;
     border-left: 1px solid rgba(128, 128, 128, 0.2);
 }
 
-form .box:nth-child(1){
+form .box:nth-child(1) {
     border-left: none;
 }
 
-form h4{
+form h4 {
     font-weight: 500;
 }
 
@@ -71,7 +71,7 @@ form h4{
         flex-wrap: wrap;
     }
 
-    form .box{
+    form .box {
         border-left: none;
     }
 
