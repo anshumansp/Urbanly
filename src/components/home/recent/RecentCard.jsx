@@ -8,7 +8,7 @@ const RecentCard = () => {
         {list.map((val, index) => {
             const {cover, category, name, location, price, type} = val;
             return (
-                <div className='box shadow' key={index} >
+                <div className='box shadow recent-card' key={index} >
                     <div className="img">
                         <img src={cover} alt="" />
                     </div>

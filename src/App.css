@@ -124,12 +124,24 @@ img{
     font-size: 20px;
 }
 
+.btn2:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+}
 
+.grid4 {
+    display: grid;
+    grid-gap: 30px;
+}
 
 
 @media (min-width: 768px) {
     .grid5 {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid4 {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .grid3 {
@@ -142,6 +154,10 @@ img{
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .grid4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .grid3 {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -150,6 +166,10 @@ img{
 @media (min-width: 1200px) {
     .grid5 {
         grid-template-columns: repeat(5, 1fr);
+    }
+
+    .grid4 {
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .grid3 {
