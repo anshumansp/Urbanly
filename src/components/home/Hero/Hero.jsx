@@ -8,8 +8,7 @@ const Hero = () => {
     <>
         <section className="hero">
         <div className="overlay"></div>
-        <video src={background} autoPlay loop muted>
-            
+        <video src={background} autoPlay loop muted style={{outline: "none", border: "none"}}>
         </video>
             <div className="container">
                 <Heading title="Explore your Best Property" subtitle="Find New and Featured Property in your Desired Location" />
