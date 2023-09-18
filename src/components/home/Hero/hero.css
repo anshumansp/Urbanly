@@ -27,10 +27,11 @@ video {
     height: auto;
     z-index: 0;
     outline: none;
+    border: 0  none;
 }
 
 .hero .container {
-    padding-top: 20%;
+    padding-top: 18%;
     position: absolute;
     z-index: 200;
     top: 0;

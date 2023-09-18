@@ -1,14 +1,14 @@
 import React from 'react'
 import "./hero.css"
 import Heading from '../../common/Heading';
-import background from "../../../assets/background-1.mp4"
+import background from "../../../assets/background.mp4"
 
 const Hero = () => {
   return (
     <>
         <section className="hero">
         <div className="overlay"></div>
-        <video src={background} autoPlay loop muted style={{outline: "none", border: "none"}}>
+        <video src={background} autoPlay loop muted>
         </video>
             <div className="container">
                 <Heading title="Explore your Best Property" subtitle="Find New and Featured Property in your Desired Location" />
