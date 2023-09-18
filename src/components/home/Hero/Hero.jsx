@@ -1,11 +1,13 @@
 import React from 'react'
 import "./hero.css"
-import Heading from '../../common/Heading'
+import Heading from '../../common/Heading';
+import background from "../../../assets/background-1.mp4"
 
 const Hero = () => {
   return (
     <>
         <section className="hero">
+        <div className="overlay"></div>
             <div className="container">
                 <Heading title="Explore your Best Property" subtitle="Find New and Featured Property in your Desired Location" />
                 <form className='flex'>
