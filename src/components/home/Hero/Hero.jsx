@@ -8,6 +8,9 @@ const Hero = () => {
     <>
         <section className="hero">
         <div className="overlay"></div>
+        <video src={background} autoPlay loop muted>
+            
+        </video>
             <div className="container">
                 <Heading title="Explore your Best Property" subtitle="Find New and Featured Property in your Desired Location" />
                 <form className='flex'>

@@ -3,8 +3,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 88vh;
+    max-height: 88vh;
     width: 100%;
+    overflow: hidden;
 }
 
 .overlay {
@@ -15,7 +16,17 @@
     height: 100%;
     right: 0;
     background-color: rgba(0, 0, 0, 0.4);
-    z-index: 100;
+    z-index: 1;
+}
+
+video {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    outline: none;
 }
 
 .hero .container {

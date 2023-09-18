@@ -1,7 +1,4 @@
-import React from 'react'
-import "./hero.css"
-import Heading from '../../common/Heading'
-import background from "../../../assets/background-1.mp4"
+
 
 const Hero = () => {
   return (
@@ -41,17 +38,4 @@ const Hero = () => {
         </section>
     </>
   )
-}
-
-export default Hero
-
-
-
-video {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    object-fit: cover;
-    z-index: -100;
 }
